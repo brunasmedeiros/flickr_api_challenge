@@ -14,7 +14,7 @@ $(document).ready(function() {
     $("#images").empty();
 
     var searchText = $("#flickr_query").val();
-    var API_KEY = "089063c49f6c8706a04b70f8a1f2abb2";
+    var API_KEY = "";
     var url = "https://api.flickr.com/services/rest/?" +
       "method=flickr.photos.search&" +
       "&text=" + searchText +
